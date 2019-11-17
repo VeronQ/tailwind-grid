@@ -7,14 +7,12 @@
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "@symfony/webpack-encore": "^0.27.0",
     "autoprefixer": "^9.6.4",
-    "babel-loader": "^8.0.6",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "sass-loader": "^7.3.1"
   },
   "scripts": {
-    "encore.prod": "encore production",
-    "encore.watch": "encore dev --watch"
+    "build": "encore production"
   }
 }
