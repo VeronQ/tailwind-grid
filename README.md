@@ -2,7 +2,7 @@
 
 > Basic CSS Grid-system for Tailwind-based architecture
 
-[![npm version](https://badge.fury.io/js/http-info.svg)](https://npmjs.org/package/tailwind-grid "View this project on npm")
+[![npm version](https://badge.fury.io/js/tailwind-grid.svg)](https://npmjs.org/package/tailwind-grid "View this project on npm")
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/VeronQ/tailwind-grid/blob/master/LICENSE)
 
 A basic CSS Grid-system built with Tailwind directives and Sass rules.

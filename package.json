@@ -1,6 +1,6 @@
 {
   "name": "tailwind-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic CSS Grid-system for Tailwind-based architecture",
   "repository": {
     "type": "git",
