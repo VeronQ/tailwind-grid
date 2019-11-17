@@ -1,0 +1,33 @@
+.row {
+  min-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  @apply -mx-4;
+
+  @responsive {
+    &--collapse {
+      @apply mx-0;
+    }
+  }
+}
+
+[class*="col-"] {
+  width: 100%;
+  min-height: 1px;
+  @apply px-4;
+
+  @responsive {
+    .row.row--collapse > & {
+      @apply px-0;
+    }
+  }
+}
+
+@responsive {
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      flex: 0 0 percentage($i / 12);
+      max-width: percentage($i / 12);
+    }
+  }
+}

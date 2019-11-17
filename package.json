@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-grid",
+  "version": "1.0.0",
+  "description": "Basic CSS Grid-system for Tailwind-based architecture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VeronQ/tailwind-grid.git"
+  },
+  "main": "lib/main.scss",
+  "scripts": {},
+  "keywords": [
+    "tailwind",
+    "gridd",
+    "sass"
+  ],
+  "author": {
+    "name": "Quentin Veron",
+    "email": "qve.veron@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VeronQ/tailwind-grid/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
