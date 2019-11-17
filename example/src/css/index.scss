@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.demo-col {
+  padding: 16px;
+  border: solid 2px black;
+  background: lightblue;
+}
+
+@import '../../../lib/main';

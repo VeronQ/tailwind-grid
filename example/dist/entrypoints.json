@@ -1,0 +1,9 @@
+{
+  "entrypoints": {
+    "main": {
+      "css": [
+        "/dist/./css/main.min.css"
+      ]
+    }
+  }
+}
